@@ -1,3 +1,11 @@
+function init() {
+	document.addEventListener("deviceready",onDeviceReady, false);
+
+}
+
+
+
+
 function showPosts(data){
 	//console.log(data.posts[0].title)
 	var html = '<ul data-role="listview">';
